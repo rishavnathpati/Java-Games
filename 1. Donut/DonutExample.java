@@ -4,15 +4,13 @@ import javax.swing.JFrame;
 
 public class DonutExample extends JFrame {
 
-    public DonutExample()
-    {
+    public DonutExample() {
 
         initUI();
     }
 
-    private void initUI()
-    {
-      Board bd=new Board();
+    private void initUI() {
+        Board bd = new Board();
 
         add(bd);
 
